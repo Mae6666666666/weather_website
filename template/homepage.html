@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header class="header-box">
+        <img class="weather-img" src="/images/weather_icon.png" alt="an icon of the weather">
+        <h1 class="underlining">Weather Wizard</h1>
+    </header>
+    <select name="dropdown" id="" required >
+        <option value="" disabled selected>Please select a location</option>
+        <option value="London">London</option>
+        <option value="Manchester">Manchester</option>
+        <option value="Essex">Essex</option>
+        <option value="Edinburgh">Edinburgh</option>
+    </select>
+    <div class="homepage-box">
+        <h1>Today's weather is <span id="temperature"></span></h1>
+        <p>Expect lorem ipsukm bla bla bla</p>
+
+        <p>feels like: <br>
+        <p>bla bla bla</p>
+        <p>bla bla bla</p>
+        <p>bla bla bla</p>
+        <p>bla bla bla</p>
+        <a href="signup.html">sign up</a>
+        <br>
+        <a href="login.html">log in</a>
+    </div>
+    <br>
+    <div class="weekly-box">
+        <div class="general-container">
+            <h1>Weekly Forecast:</h1>
+            <h2>Monday: </h2>
+            <p>High: {}</p>
+            <p>Low: {}</p>
+            <br>
+            <h2>Tuesday:</h2>
+            <p>High: {}</p>
+            <p>Low: {}</p>
+        </div>
+        
+    
+    <script src="../app.js"></script>
+    </div>
+</body>
+</html>
