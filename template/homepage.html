@@ -20,32 +20,95 @@
     </select>
     <div class="homepage-box">
         <h1>Today's weather is <span id="temperature"></span></h1>
-        <p>Expect lorem ipsukm bla bla bla</p>
-
-        <p>feels like: <br>
-        <p>bla bla bla</p>
-        <p>bla bla bla</p>
-        <p>bla bla bla</p>
-        <p>bla bla bla</p>
+        <h3>
+            Highest temp today: <span id="high"></span>
+        </h3>
+        <h3>
+            Lowest temp today: <span id="low"></span>
+        </h3>
         <a href="signup.html">sign up</a>
         <br>
         <a href="login.html">log in</a>
     </div>
     <br>
     <div class="weekly-box">
+        <h1>Weekly Forecast:</h1>
         <div class="general-container">
-            <h1>Weekly Forecast:</h1>
-            <h2>Monday: </h2>
-            <p>High: {}</p>
-            <p>Low: {}</p>
-            <br>
-            <h2>Tuesday:</h2>
-            <p>High: {}</p>
-            <p>Low: {}</p>
+            <div class="day-box">
+                <h2>
+                    <span id="tomorrow"></span>
+                </h2>
+                <p>High: 
+                    <span id="tomorrow-high"></span>
+                </p>
+                <p>Low: 
+                    <span id="tomorrow-low"></span>
+                </p>
+            </div>
+            
+            <div class="day-box">
+                <h2>
+                    <span id="second-day"></span>
+                </h2>
+                <p>High: 
+                    <span id="second-high"></span>
+                </p>
+                <p>Low: 
+                    <span id="second-low"></span>
+                </p>
+            </div>
+
+            <div class="day-box">
+                <h2>
+                    <span id="third-day"></span>
+                </h2>
+                <p>High: 
+                    <span id="third-high"></span>
+                </p>
+                <p>Low: 
+                    <span id="third-low"></span>
+                </p>
+            </div>
         </div>
-        
-    
-    <script src="../app.js"></script>
+        <br>
+        <div class="general-container">
+                <div class="day-box">
+                    <h2>
+                        <span id="fourth-day"></span>
+                    </h2>
+                    <p>High: 
+                        <span id="fourth-high"></span>
+                    </p>
+                    <p>Low: 
+                        <span id="fourth-low"></span>
+                    </p>
+                </div>
+                
+                <div class="day-box">
+                    <h2>
+                        <span id="fifth-day"></span>
+                    </h2>
+                    <p>High: 
+                        <span id="fifth-high"></span>
+                    </p>
+                    <p>Low: 
+                        <span id="fifth-low"></span>
+                    </p>
+                </div>
+
+                <div class="day-box">
+                    <h2>
+                        <span id="sixth-day"></span>
+                    </h2>
+                    <p>High: 
+                        <span id="sixth-high"></span>
+                    </p>
+                    <p>Low: 
+                        <span id="sixth-low"></span>
+                    </p>
+                </div>
+        </div>
     </div>
+    <script src="../app.js"></script>
 </body>
 </html>
